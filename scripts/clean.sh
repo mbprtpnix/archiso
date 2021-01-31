@@ -37,7 +37,7 @@ echo
 echo "Deleting the build folder if one exists - takes some time"
 [ -d $buildFolder ] && sudo rm -rf $buildFolder
 echo
-echo "Copying the Archiso folder to build work"
+echo "Copying the archiso folder to build work"
 echo
 mkdir $buildFolder
 cp -r ../archiso $buildFolder/archiso
